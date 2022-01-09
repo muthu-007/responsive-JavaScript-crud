@@ -1,0 +1,116 @@
+body{
+    background-image: linear-gradient(to right,rgb(125, 167, 206),rgba(172, 187, 209, 0.849));
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+    color: white;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(4, 76, 99);
+}
+
+input[type="text"],input[type="number"]{
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 30px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background:transparent;
+    color: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;s
+     border: 1px solid white;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: #4b99d8;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
+@media screen and (min-width: 480px)
+{
+
+    input[type="text"],input[type="number"]{
+        width:80%;}
+        table{
+            width: 70%;
+            margin: 0px auto 20px;
+            background-image:linear-gradient(to right,black,rgb(119, 139, 231))
+        }
+
+        table.list{
+            text-align: center;
+            width: 70%;
+            color: blanchedalmond;
+        }
+
+        header{
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 72px;
+            font-size: 2rem;
+            color: rgb(247, 229, 229);
+            text-shadow: 2px 2px 4px rgb(19, 19, 19);
+        }
+        
+}
+
+@media screen and (min-width: 1000px)
+{
+
+    input[type="text"],input[type="number"]{
+        width:90%;}
+        table{
+            width: 50%;
+           margin: 0px auto 40px;
+            background-image:linear-gradient(to right,black,rgb(119, 139, 231))
+        }
+
+        table.list{
+            text-align: center;
+            width: 50%;
+            color: blanchedalmond;
+        }
+        
+        header{
+            font-weight: bold;
+            margin-top: 20px;
+            margin-left: 345px;
+            font-size: 2rem;
+            color: rgb(240, 228, 228);
+            text-shadow: 2px 2px 4px rgb(19, 19, 19);
+        }
+}
+    
+    
